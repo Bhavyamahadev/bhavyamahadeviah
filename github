@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+int N;
+long long int fact=1;
+scanf("%d",&N);
+while(N>0)
+{
+fact=fact*N;
+N--;
+}
+printf("%u",fact);
+return 0;
+}
